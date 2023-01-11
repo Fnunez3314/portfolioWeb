@@ -1,0 +1,108 @@
+body{ 
+  padding: 0;
+  margin: 0;
+  font-family:'Montserrat', sans-serif;
+}
+
+nav{  
+  opacity: 1;
+}
+ h2{  
+  margin-bottom: 18px;
+  font-weight: bold;
+ }
+
+p{  
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+a{  
+  text-decoration: none;
+  color: black;
+}
+
+img{  
+  max-width: 100%;
+}
+
+.bg-img{ 
+  filter: brightness(40%);
+  max-width: 100%;
+  height: 793px;
+}
+
+.presentation{  
+  width: 650px;
+  height: 250px;
+  background-color: rgba(236, 236, 236, 0.5);
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  margin: -25px 0 0 -25px;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 481px) {
+  .presentation {
+    top: 20%;
+    left: 20%;
+    width: 70%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+.bg-img{  
+  height: 850px;
+}
+
+p{  
+  font-size: 20px;
+}
+
+ }
+
+#intro{ 
+  font-size: 42px;
+  font-weight: bold;
+  text-align: start;
+  padding-left: 25px;
+}
+
+
+.contenedor{ 
+  
+  padding: 10px 0 10px 0; 
+  min-height: 300px;
+  border-top: solid 3px rgb(219, 216, 216);
+  text-align: center;
+}
+
+.mail{  
+  list-style-image: url(/assets/img/outlook-icon.png);
+}
+
+.wsapp {  
+  list-style-image: url(assets/img/whatsapp-icon.png);
+}
+
+.linkedin {
+  list-style-image: url(assets/img/linkedin-icon.png);
+}
+
+footer{ 
+  text-align: center;
+  background-color: rgb(219, 216, 216);
+}
+
+ul{ 
+  list-style: none;
+  list-style-position: inside;
+}
+
+
+
